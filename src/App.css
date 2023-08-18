@@ -1,0 +1,23 @@
+.loading-small{
+  width: 80px;
+  height: 80px;
+}
+	
+ #loading-small {
+	-webkit-animation: loading 1s infinite;			
+	-moz-animation: loading 1s infinite;
+	-ms-animation: loading 1s infinite; 			
+	animation: loading 1s infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-animation-timing-function: linear;		
+	-ms-animation-timing-function: linear;
+	animation-timing-function: linear	
+}
+
+@keyframes loading {
+  100%{ 
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg)
+  }
+}

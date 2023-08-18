@@ -1,2 +1,3 @@
-# today-weather-openweather
-Using ReactJS, Typescript to build
+# ReactJS with open weather API
+
+Display weather information by Open weather API
